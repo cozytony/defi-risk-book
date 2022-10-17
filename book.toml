@@ -1,0 +1,6 @@
+[book]
+authors = ["Tony Sheng"]
+language = "en"
+multilingual = false
+src = "src"
+title = "DeFi Risk Book"
