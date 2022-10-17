@@ -10,7 +10,7 @@
 - [Vulnerabilities](./vulnerabilities.md)
 - [Attacks](./attacks.md)
 
-# How do minimize hacks?
+# How do you minimize hacks?
 - [Best practices](./best-practices.md)
 
 # Practical guides
