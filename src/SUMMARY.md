@@ -11,7 +11,7 @@
 - [Attacks](./attacks.md) - What the most common attacks look like
 
 # How do you minimize hacks?
-- [Best practices](./best-practices.md)
+- [Best practices](./best-practices.md) - What should be done to prevent attacks
 
 # Practical guides
 - [Opsec](./opsec.md) - How you can protect yourself from yourself
