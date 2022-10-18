@@ -10,8 +10,13 @@
 - [Vulnerabilities](./vulnerabilities.md) - How things go wrong
 - [Attacks](./attacks.md) - What the most common attacks look like
 
+<<<<<<< HEAD
 # How do minimize hacks?
 - [Best practices](./best-practices.md) - What can and should be done to prevent hacks
+=======
+# How do you minimize hacks?
+- [Best practices](./best-practices.md)
+>>>>>>> 5c7c435e64641d6b091e06a57f28af2a55ffaaa7
 
 # Practical guides
 - [Opsec](./opsec.md) - How you can protect yourself from yourself
