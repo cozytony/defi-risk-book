@@ -7,8 +7,12 @@
 
 # Why do hacks happen?
 - [The DeFi stack](./defi-stack.md) - Where things can go wrong
-- [Vulnerabilities](./vulnerabilities.md) - How things go wrong
-- [Attacks](./attacks.md) - What the most common hacks look like
+	+ [Self custody]() - How things go wrong with self custody
+	+ [Infrastructure]() - ...with the infrastructure layer
+	+ [Transaction]() - ...with the transaction layer
+	+ [Protocol]() - ...with the protocol layer
+	+ [Ecosystem]() - ...with the ecosystem layer
+- [Case studies]() - What can we learn from some of the biggest hacks
 
 # How do you minimize hacks?
 - [Best practices](./best-practices.md) - What should be done to prevent hacks
