@@ -8,10 +8,11 @@
 # Why do hacks happen?
 - [The DeFi stack](./defi-stack.md) - Where things can go wrong
 - [Vulnerabilities](./vulnerabilities.md) - How things go wrong
-- [Attacks](./attacks.md) - What the most common attacks look like
+- [Attacks](./attacks.md) - What the most common hacks look like
 
 # How do you minimize hacks?
-- [Best practices](./best-practices.md) - What should be done to prevent attacks
+- [Best practices](./best-practices.md) - What should be done to prevent hacks
+- [Responding to hacks]() - What should be done to recover hacked funds
 
 # Practical guides
 - [Opsec](./opsec.md) - How you can protect yourself from yourself
