@@ -25,8 +25,8 @@
 - [Hedging](./hedging.md) - How to minimize your exposure to losses through hedging instruments
 
 # Conclusion
-- [Develop your threat plan](./plan.md) - How to develop a plan to approach DeFi opportunities while managing risk
-- [Improving your threat plan](./improving.md) - How continuous improve your plan by incorporating new learnings
+- [Develop your system]() - How to develop a plan to approach DeFi opportunities while managing risk
+- [Improving your system]() - How continuous improve your plan by incorporating new learnings
 
 # Appendix
 - [More resources](./sources.md)
