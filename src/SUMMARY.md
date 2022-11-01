@@ -6,7 +6,7 @@
 
 # Why do hacks happen?
 - [The DeFi stack](./defi-stack.md) - Where things can go wrong
-	+ [Self custody](./self-custody.md) - How things go wrong with self custody
+	+ [Self custody](./self-custody-layer.md) - How things go wrong with self custody
 	+ [Infrastructure]() - ...with the infrastructure layer
 	+ [Transaction]() - ...with the transaction layer
 	+ [Protocol]() - ...with the protocol layer
