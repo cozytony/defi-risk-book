@@ -1,8 +1,7 @@
-# Summary
-
 # Introducing Risk Book
 - [Introduction](./intro.md) - Why this book exists
 - [Billion dollar bug bounties](./size-of-hacks.md) - Why hacks are a problem you should care about
+- [Thinking about security from first principles]() - Introducing a framework to think about security based on first principles
 - [How to use this resource](./how-to.md) - How you can make the most use of this resource
 
 # Why do hacks happen?
