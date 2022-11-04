@@ -5,7 +5,7 @@ Taking custody of your crypto assets (self custody) offers unprecedented control
 1. What needs protecting
 2. What is the potential threat
 3. What are the potential vulnerabilities
-4. What is the potential riks
+4. What is the potential risk
 5. What are the countermeasures
 
 After reading this guide, you'll know how to enjoy the benefits of self custody while keeping your stuff safe. 
@@ -26,7 +26,7 @@ There are two types of potential threat:
 
 If you lose access, nobody can help you recover your wallet. There's no phone number to call or account reset flow. 
 
-If an attacker gains access, nobody can take it away from them. This means they can irreversibly transfer all of your assets to an address that only they control. 
+If an attacker gains access, nobody can take it away from them--they'll be able to irreversibly transfer all of your assets to their own address. 
 
 ## What are the potential vulnerabilities
 
@@ -38,16 +38,16 @@ When you set up a new wallet, you'll be asked to back up your seed phrase keys. 
 
 **Lose your back-up seed phrase**
 
-When you back-up your seed phrase, you need to make sure it's secure and recoverable
+When you back-up your seed phrase, you need to make sure it's secure and recoverable.
 
-You can lose your funds by discarding, destroying, or forgetting your back-up
-* Discarding means you backed up your keys but threw the back-up away (e.g. a notebook that got discarded during spring cleaning, here's a guy who [lost hundreds of millions](https://www.cnbc.com/2021/01/15/uk-man-makes-last-ditch-effort-to-recover-lost-bitcoin-hard-drive.html) by throwing out a hard drive with his seed phrase)
-* Destroying means your back-up failed to survive the elements. For example, a back-up written on paper being burned in a fire
-* Forgetting means you backed up your keys but no longer know where the back-up is
+You can lose your funds by discarding, destroying, or forgetting your back-up. 
+* Discarding means you backed up your keys but threw the back-up away (e.g. a notebook that got discarded during spring cleaning, here's a guy who [lost hundreds of millions](https://www.cnbc.com/2021/01/15/uk-man-makes-last-ditch-effort-to-recover-lost-bitcoin-hard-drive.html) by throwing out a hard drive with his seed phrase).
+* Destroying means your back-up failed to survive the elements. For example, a back-up written on paper may not survive a fire.
+* Forgetting means you backed up your keys but no longer know where the back-up is.
 
 **Die without sharing seed phrase back-up**
 
-Your funds can be lost if you die and don't prepare a way for your loved ones to recover your wallet
+Your funds can be lost if you die and don't prepare a way for your loved ones to recover your wallet.
 	
 **What to do when you lose your seed phrase?** 
 
@@ -57,9 +57,9 @@ If you still have access to your wallet, create a new wallet, make sure sure you
 
 **Reveal seed phrase**
 
-- Storing your seed phrase encrypted on your device and opening an infected file that installs a virus that sends the encryptoed file to the hacker
+- Storing your seed phrase encrypted on your device and opening an infected file that installs a virus that sends the encrypted file to the hacker
 - Entering your seed phrase into a fraudulent website
-- Revealing a recovery QR code (usually over video chat with fraudulent "support" call)
+- Revealing a recovery QR code (usually over video chat with a fraudulent "support" call)
 - Using an insecure seed phrase generator that allows an attacker to brute force generate your seed phrase (example: [profanity](https://halborn.com/explained-the-profanity-address-generator-hack-september-2022/))
 
 **Permit asset transfer**
@@ -69,7 +69,7 @@ If you still have access to your wallet, create a new wallet, make sure sure you
 
 **Hijacking destination address of transfer**
 
-* Adding a malicious browser extention that replaces your intended address with the attacker's address when you use the clipboard (e.g. 0x123 to 0xabc)
+* Adding a malicious browser extension that replaces your intended address with the attacker's address when you use the clipboard (e.g. 0x123 to 0xabc)
 
 **Physical attack ("wrench attack")**
 
@@ -82,7 +82,7 @@ If you revealed your seed phrase, create a new wallet and transfer any remaining
 
 ## What is the potential risk
 
-If you lose or compromise your seed phrase, you stand to lose all of the assets in your wallets. If you permit asset transfers, you stand to lose all of the asset type your permitted the transfer of. 
+If you lose or compromise your seed phrase, you stand to lose all of the assets in your wallets. If you permit asset transfers, you stand to lose all of the asset type for which you permitted transfers. 
 
 * seed phrase compromise: everything
 * fraudulent permit: the asset(s) you permit from that address
@@ -98,8 +98,8 @@ Your seed phrase back-up should be safe from destruction, discarding, forgetting
 * Discarding: store your back-up somewhere it won't be mistaken for trash. Like a safety deposit box or a fire-proof safe. 
 * Unforgettable: store your back-up somewhere you won't forget it. 
 * Death: leave instructions for your loved ones to recover your address in case of your unexpected death. But make sure the instructions don't compromise the security of your back-up while you're living.
-* Phsyical theft: minimize the likelihood of being targetted by keeping a low profile. 
-* Digital theft: store your back-up offline, either on a physicial medium or on an air-gapped computer (meaning it never connects to the internet).
+* Physical theft: minimize the likelihood of being targetted by keeping a low profile. 
+* Digital theft: store your back-up offline, either on a physical medium or on an air-gapped computer (meaning it never connects to the internet).
 
 **Best practices for securing your wallet from attackers**
 
@@ -109,12 +109,12 @@ When you use your wallet, you must do it in such a way that makes it difficult o
 * Seed generator: avoid third party seed phrase generators when possible. There have been large hacks due to insecure seed phrase generators like the [Profanity hack](https://rekt.news/wintermute-rekt-2/).
 * Verify transactions: double check that all of your transactions are as you expect before submitting them. Popular wallets like Metamask don't make it easy but there are tools [like blowfish](https://blowfish.xyz/) that are working on making this easier. 
 * Check and manage permissions: periodically review your permissions on a site like [revoke.cash](https://revoke.cash/) to make sure the contracts that have permission to transfer your assets should have permission.
-* Segregate acounts: when possible, use separate addresses for separate use cases. So if one of your addresses is compromised, you can isolate the damage to just the assets in that address. 
+* Segregate accounts: when possible, use separate addresses for separate use cases. So if one of your addresses is compromised, you can isolate the damage to just the assets in that address. 
 * Never give out your seed phrase: a common tactic of attackers is to come up with a convincing reason that you need to enter your seed phrase on their fraudulent website to either recover your account or claim some reward. As a general rule, you should never ever enter your seed phrase anywhere. 
 
 ## Summary and next steps
 
-Choosing self-custody is an empowering but comes with great responsibility. You will need to protect your funds from threats like losing or compromising access to your wallets by carefully managing your seed phrase back-ups and exercising extreme caution when using your wallet. Luckily, there are best practices you can take advantage of to reduce your risk. And better and better countermeasures are being released every year. 
+Choosing self-custody is empowering but comes with great responsibility. You will need to protect your funds from threats like losing or compromising access to your wallets by carefully managing your seed phrase back-ups and exercising extreme caution when using your wallet. Luckily, there are best practices you can take advantage of to reduce your risk. And better and better countermeasures are being released every year. 
 
 Keep tabs on this post for the latest developments on how to self-custody safely.  
 
