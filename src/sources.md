@@ -6,6 +6,7 @@
 
 ## Cause of hacks
 
+* [All known smart contract-side and user-side attacks and vulnerabilities in Web3.0, DeFi, NFT and Metaverse + Bonus](https://graph.org/All-known-smart-contract-side-and-user-side-attacks-and-vulnerabilities-in-Web30--DeFi-03-31) by CIA Officer
 * [The State of Crypto Security](https://thecontrol.co/the-state-of-crypto-security-d628ac5b609d) by Kofi
 * [DeFi Hacks Analysis - Root Cause](https://wooded-meter-1d8.notion.site/0e85e02c5ed34df3855ea9f3ca40f53b?v=22e5e2c506ef4caeb40b4f78e23517ee) by SunSec
 * [Web 3 Security Library](https://github.com/immunefi-team/Web3-Security-Library) by ImmuneFi
@@ -23,6 +24,8 @@
 * [Bobby Ong Thread](https://twitter.com/bobbyong/status/1403881080902471680?s=20&t=rTuSn61yi9uKFFgDe19c3Q) by Bobby Ong
 * [MyCrypto’s Security Guide For Dummies And Smart People Too](https://medium.com/mycrypto/mycryptos-security-guide-for-dummies-and-smart-people-too-ab178299c82e) by Taylor Monahan
 * [The Ten Commandments of crypto security](https://xamanap.medium.com/the-ten-commandments-of-crypto-security-3cd616185d40) by Xaman Crypto
+* [Opsec 101](https://opsec101.org/) by carrotcypher*[
+* [How to back up your private keys](https://learn.bybit.com/blockchain/how-to-backup-your-private-keys/) by Bybit
 
 ## Responding
 
