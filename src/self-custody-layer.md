@@ -1,6 +1,6 @@
 # Self custody
 
-Taking custody of your crypto assets (self custody) offers unprecedented control of your financial property but comes with the unprecedented risk of losing your stuff. In this post, we'll apply the [*Opsec Framework*](https://opsec101.org/) to self custody and answer the following five questions:
+Taking custody of your crypto assets (self custody) offers complete control of your financial property but comes with the considerable risk of losing your stuff. In this post, we'll answer five questions to understand how to self-custody safely. 
 
 1. What needs protecting
 2. What is the potential threat
@@ -8,7 +8,7 @@ Taking custody of your crypto assets (self custody) offers unprecedented control
 4. What is the potential risk
 5. What are the countermeasures
 
-After reading this guide, you'll know how to enjoy the benefits of self custody while keeping your stuff safe. 
+After reading this guide, you'll be equipped to enjoy the benefits of self custody while keeping your stuff safe. 
 
 ## What needs protecting
 
@@ -16,8 +16,6 @@ The contents of your crypto wallet--cryptocurrencies, tokens, NFTs--need protect
 
 
 ## What is the potential threat
-
-Losing or compromising access to your crypto wallet is permanent.
 
 There are two types of potential threat:
 
@@ -34,7 +32,7 @@ If an attacker gains access, nobody can take it away from them--they'll be able 
 
 **Forget to back-up seed phrase**
 
-When you set up a new wallet, you'll be asked to back up your seed phrase keys. If you lose access to your wallet (e.g. forget metamask password, lose your hardware wallet), you'll be able to restore it by using your seed phrase. And if you lose access to your wallet *and* your seed phrase, your funds are gone forever. 
+When you set up a new wallet, you'll be asked to back up your seed phrase keys. If you lose access to your wallet (e.g. forget metamask password, lose your hardware wallet), you'll be able to restore it by using your seed phrase. But if you lose access to your wallet *and* your seed phrase, your funds are gone forever. 
 
 **Lose your back-up seed phrase**
 
@@ -70,6 +68,7 @@ If you still have access to your wallet, create a new wallet, make sure sure you
 **Hijacking destination address of transfer**
 
 * Adding a malicious browser extension that replaces your intended address with the attacker's address when you use the clipboard (e.g. 0x123 to 0xabc)
+* (@TODO) Frontend hack like this [curve one](https://decrypt.co/107120/ethereum-defi-exchange-curve-frontend-hack-hijack)
 
 **Physical attack ("wrench attack")**
 
@@ -98,19 +97,19 @@ Your seed phrase back-up should be safe from destruction, discarding, forgetting
 * Discarding: store your back-up somewhere it won't be mistaken for trash. Like a safety deposit box or a fire-proof safe. 
 * Unforgettable: store your back-up somewhere you won't forget it. 
 * Death: leave instructions for your loved ones to recover your address in case of your unexpected death. But make sure the instructions don't compromise the security of your back-up while you're living.
-* Physical theft: minimize the likelihood of being targetted by keeping a low profile. 
+* Physical theft: minimize the likelihood of being targeted by keeping a low profile. 
 * Digital theft: store your back-up offline, either on a physical medium or on an air-gapped computer (meaning it never connects to the internet).
 
 **Best practices for securing your wallet from attackers**
 
 When you use your wallet, you must do it in such a way that makes it difficult or impossible for attackers to hijack your asset transfers, insert fraudulent transfer permissions, or trick you into revealing your seed phrase. 
 
-* Hardware wallet: a hardware wallet is highly recommended if you are storing greater than a few hundred dollars worth of assets. It will ensure your seed phrase was generated securely and adds a second layer of defense against any and all transactions by requiring physicial confirmation of transactions using the hardware wallet. 
+* Hardware wallet: a hardware wallet is highly recommended if you are storing greater than a few hundred dollars worth of assets. It will ensure your seed phrase was generated securely and adds a second layer of defense against any and all transactions by requiring physical confirmation of transactions using the hardware wallet. 
 * Seed generator: avoid third party seed phrase generators when possible. There have been large hacks due to insecure seed phrase generators like the [Profanity hack](https://rekt.news/wintermute-rekt-2/).
 * Verify transactions: double check that all of your transactions are as you expect before submitting them. Popular wallets like Metamask don't make it easy but there are tools [like blowfish](https://blowfish.xyz/) that are working on making this easier. 
 * Check and manage permissions: periodically review your permissions on a site like [revoke.cash](https://revoke.cash/) to make sure the contracts that have permission to transfer your assets should have permission.
 * Segregate accounts: when possible, use separate addresses for separate use cases. So if one of your addresses is compromised, you can isolate the damage to just the assets in that address. 
-* Never give out your seed phrase: a common tactic of attackers is to come up with a convincing reason that you need to enter your seed phrase on their fraudulent website to either recover your account or claim some reward. As a general rule, you should never ever enter your seed phrase anywhere. 
+* Never give out your seed phrase: a common tactic of attackers is to come up with a convincing reason that you need to enter your seed phrase on their fraudulent website to either recover your account or claim some reward. You should only use your seed phrase when recovering a wallet, and even then, you should double and triple check you're not being tricked. 
 
 ## Summary and next steps
 
