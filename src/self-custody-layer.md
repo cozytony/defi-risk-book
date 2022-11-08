@@ -1,6 +1,6 @@
 # Self custody
 
-Taking custody of your crypto assets (self custody) offers complete control of your financial property but comes with the considerable risk of losing your stuff. In this post, we'll answer five questions to understand how to self-custody safely. 
+Taking custody of your crypto assets (self custody) offers complete control of your financial property but comes with the considerable risk of losing your assets. In this post, we'll answer five questions to understand how to self-custody safely. 
 
 1. What needs protecting
 2. What is the potential threat
@@ -8,7 +8,7 @@ Taking custody of your crypto assets (self custody) offers complete control of y
 4. What is the potential risk
 5. What are the countermeasures
 
-After reading this guide, you'll be equipped to enjoy the benefits of self custody while keeping your stuff safe. 
+After reading this guide, you'll be equipped to enjoy the benefits of self custody while keeping your funds safe. 
 
 ## What needs protecting
 
@@ -30,26 +30,26 @@ If an attacker gains access, nobody can take it away from them--they'll be able 
 
 ### How you can lose access to the assets in your wallet
 
-**Forget to back-up seed phrase**
+**Forget to backup seed phrase**
 
 When you set up a new wallet, you'll be asked to back up your seed phrase keys. If you lose access to your wallet (e.g. forget metamask password, lose your hardware wallet), you'll be able to restore it by using your seed phrase. But if you lose access to your wallet *and* your seed phrase, your funds are gone forever. 
 
-**Lose your back-up seed phrase**
+**Lose your backup seed phrase**
 
-When you back-up your seed phrase, you need to make sure it's secure and recoverable.
+When you backup your seed phrase, you need to make sure it's secure and recoverable.
 
-You can lose your funds by discarding, destroying, or forgetting your back-up. 
-* Discarding means you backed up your keys but threw the back-up away (e.g. a notebook that got discarded during spring cleaning, here's a guy who [lost hundreds of millions](https://www.cnbc.com/2021/01/15/uk-man-makes-last-ditch-effort-to-recover-lost-bitcoin-hard-drive.html) by throwing out a hard drive with his seed phrase).
-* Destroying means your back-up failed to survive the elements. For example, a back-up written on paper may not survive a fire.
-* Forgetting means you backed up your keys but no longer know where the back-up is.
+You can lose your funds by discarding, destroying, or forgetting your backup. 
+* Discarding means you backed up your keys but threw the backup away (e.g. a notebook that got discarded during spring cleaning, here's a guy who [lost hundreds of millions](https://www.cnbc.com/2021/01/15/uk-man-makes-last-ditch-effort-to-recover-lost-bitcoin-hard-drive.html) by throwing out a hard drive with his seed phrase).
+* Destroying means your backup failed to survive the elements. For example, a backup written on paper may not survive a fire.
+* Forgetting means you backed up your keys but no longer know where the backup is.
 
-**Die without sharing seed phrase back-up**
+**Die without sharing seed phrase backup**
 
 Your funds can be lost if you die and don't prepare a way for your loved ones to recover your wallet.
 	
 **What to do when you lose your seed phrase?** 
 
-If you still have access to your wallet, create a new wallet, make sure sure you back-up your seed phrase, and transfer all of your assets from your old wallet to your new wallet. 
+If you still have access to your wallet, create a new wallet, make sure sure you backup your seed phrase, and transfer all of your assets from your old wallet to your new wallet. 
 
 ### How an attacker can gain access to your wallet
 
@@ -68,7 +68,6 @@ If you still have access to your wallet, create a new wallet, make sure sure you
 **Hijacking destination address of transfer**
 
 * Adding a malicious browser extension that replaces your intended address with the attacker's address when you use the clipboard (e.g. 0x123 to 0xabc)
-* (@TODO) Frontend hack like this [curve one](https://decrypt.co/107120/ethereum-defi-exchange-curve-frontend-hack-hijack)
 
 **Physical attack ("wrench attack")**
 
@@ -89,16 +88,16 @@ If you lose or compromise your seed phrase, you stand to lose all of the assets 
 
 ## What are the countermeasures
 
-**Best practices for storing your seed phrase back-up**
+**Best practices for storing your seed phrase backup**
 
-Your seed phrase back-up should be safe from destruction, discarding, forgetting, death, and both physical and digital theft. 
+Your seed phrase backup should be safe from destruction, discarding, forgetting, death, and both physical and digital theft. 
 
-* Destruction: instead of paper, consider using stainless steel. This will give your back-up a better chance of surviving time and natural disasters like fire. 
-* Discarding: store your back-up somewhere it won't be mistaken for trash. Like a safety deposit box or a fire-proof safe. 
-* Unforgettable: store your back-up somewhere you won't forget it. 
-* Death: leave instructions for your loved ones to recover your address in case of your unexpected death. But make sure the instructions don't compromise the security of your back-up while you're living.
+* Destruction: instead of paper, consider using stainless steel. This will give your backup a better chance of surviving time and natural disasters like fire. 
+* Discardment: store your backup somewhere it won't be mistaken for trash. Like a safety deposit box or a fire-proof safe. 
+* Forgetting: store your backup somewhere you won't forget it. 
+* Death: leave instructions for your loved ones to recover your address in case of your unexpected death. But make sure the instructions don't compromise the security of your backup while you're living.
 * Physical theft: minimize the likelihood of being targeted by keeping a low profile. 
-* Digital theft: store your back-up offline, either on a physical medium or on an air-gapped computer (meaning it never connects to the internet).
+* Digital theft: store your backup offline, either on a physical medium or on an air-gapped computer (meaning it never connects to the internet).
 
 **Best practices for securing your wallet from attackers**
 
@@ -113,7 +112,7 @@ When you use your wallet, you must do it in such a way that makes it difficult o
 
 ## Summary and next steps
 
-Choosing self-custody is empowering but comes with great responsibility. You will need to protect your funds from threats like losing or compromising access to your wallets by carefully managing your seed phrase back-ups and exercising extreme caution when using your wallet. Luckily, there are best practices you can take advantage of to reduce your risk. And better and better countermeasures are being released every year. 
+Choosing self-custody is empowering but comes with great responsibility. You will need to protect your funds from threats like losing or compromising access to your wallets by carefully managing your seed phrase backups and exercising extreme caution when using your wallet. Luckily, there are best practices you can take advantage of to reduce your risk. And better and better countermeasures are being released every year. 
 
 Keep tabs on this post for the latest developments on how to self-custody safely.  
 

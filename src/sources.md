@@ -26,6 +26,7 @@
 * [The Ten Commandments of crypto security](https://xamanap.medium.com/the-ten-commandments-of-crypto-security-3cd616185d40) by Xaman Crypto
 * [Opsec 101](https://opsec101.org/) by carrotcypher*[
 * [How to back up your private keys](https://learn.bybit.com/blockchain/how-to-backup-your-private-keys/) by Bybit
+* [The SIM Swapping Bible: What To Do When SIM-Swapping Happens To You](https://medium.com/mycrypto/what-to-do-when-sim-swapping-happens-to-you-1367f296ef4d) by CipherBlade
 
 ## Responding
 
